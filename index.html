@@ -1,0 +1,26 @@
+<html>
+	<title> Ejercicio 5.5.12 </title>
+	<style>
+		#display {
+		  height: 50px;
+		  width: 100px;
+		  border: 2px solid black;
+		}
+	</style>
+	<body>
+	  <form id="form">
+		Color: <input id="color" type="text">
+	  </form>
+	  <p id="display"></p>
+	  <script>
+		var color = document.getElementById('color');
+		var display = document.getElementById('display');
+
+		var changeColor = function (){
+		  display.style.backgroundColor = this.value;
+		}
+
+		color.addEventListener('input', changeColor);
+	  </script>
+	</body>
+</html>
