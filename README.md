@@ -9,4 +9,4 @@ En esta práctica se va a utlizar el método addEventListener para visualizar co
 
 Ejercicio resuelto en gh-pages.
 
-[Try Me!](https://adrioter94.github.io/X-Nav-JS-Event)
+[Try Me!](https://adrioter94.github.io/X-Nav-JS-Event/index.html)
